@@ -182,3 +182,38 @@ padding: 10px 20px;
 margin-bottom: 24px;
 border: none;
  }
+ .hide{
+   display:none;
+}
+
+
+ /* ....responsive */
+ @media  screen and (max-width: 576px) {
+   .skills-container, .resume-container, footer,  .about-items, nav, .banner, nav > ul{
+   flex-direction: column;
+   }
+ 
+   footer input[type="text"], input[type="email"], textarea{
+      width: calc(100%-30px);
+   }
+footer{
+   padding: 10px;
+}
+.banner{
+   margin: 0%;
+}
+.banner-image{
+
+   width: 100%;
+}
+   .footer-column{
+      width: 90%;
+   }
+   .header{
+      width: 100%;
+   }
+
+.about{
+   padding: 20px;
+}
+ }
